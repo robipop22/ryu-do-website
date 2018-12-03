@@ -72,6 +72,9 @@
           "source": "summary",
           "text": "local://contact",
           "textColor": "#37474F"
+        },
+        "map": {
+          "source": "map"
         }
       }
     }

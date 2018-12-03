@@ -1,5 +1,6 @@
 import React from 'react'
 import { Screen } from 'react-dom-chunky'
+import * as CustomComponents from '../components'
 
 export default class ContactScreen extends Screen {
   constructor(props) {
@@ -9,6 +10,13 @@ export default class ContactScreen extends Screen {
 
   componentDidMount() {
     super.componentDidMount()
+  }
+
+  loadCustomComponent(props) {
+    return props => {
+      const CustomComponent = CustomComponents[props.source]
+      return <CustomComponent {...props} />
+    }
   }
 
   components() {
