@@ -1,3 +1,3 @@
-## About us informations
+## About us information
 
 <p>aaaaa</p>

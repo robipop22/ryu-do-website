@@ -26,9 +26,9 @@
     "navigationTintColor": "#d32f2f",
     "backgroundColor": "#999999",
     "footerTintColor": "#CFD8DC",
-    "footerHeaderColor": "#90A4AE",
-    "footerColor": "#546E7A",
-    "footerBottomColor": "#37474F"
+    "footerHeaderColor": "#fff",
+    "footerColor": "#90A4AE",
+    "footerBottomColor": "#607D8B"
   },
   "info": {
     "copyright": "2018",
