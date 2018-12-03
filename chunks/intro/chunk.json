@@ -5,12 +5,24 @@
       "title": "Welcome",
       "icon": "home",
       "path": "/",
+      "extendedMenu": [
+        {
+          "id": "about",
+          "path": "/about",
+          "title": "About Us"
+        },
+        {
+          "id": "contact",
+          "path": "/contact",
+          "title": "Contact Us"
+        }
+      ],
       "cover": {
         "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
-        "title": "This is my personal site",
-        "subtitle": "You won't believe your eyes",
+        "title": "Karate Club Ryu Do Deva",
+        "subtitle": "Self Defence is Mandatory",
         "type": "default",
         "primaryActionTitle": "Let's do this"
       },
@@ -19,6 +31,46 @@
           "source": "summary",
           "text": "local://intro",
           "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "path": "/about",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "ABOUT",
+        "subtitle": "ABOUT",
+        "type": "default",
+        "primaryActionTitle": "Let's do this"
+      },
+      "components": {
+        "intro": {
+          "source": "text",
+          "textSource": "local://about",
+          "style": {
+            "margin": "10%"
+          }
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "path": "/contact",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "Get in touch",
+        "type": "default"
+      },
+      "components": {
+        "intro": {
+          "source": "summary",
+          "text": "local://contact",
           "textColor": "#37474F"
         }
       }
